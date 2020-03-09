@@ -1,4 +1,4 @@
-// Copyright (C) 2020 CarbonROM
+// Copyright (C) 2020 LightningFastROM
 //
 // Licensed under the Apache License, Version 2.0 (the "License"};
 // you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 // limitations under the License.
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.carbonrom.setupwizard",
+    name: "privapp_whitelist_org.lightningfastrom.setupwizard",
     sub_dir: "permissions",
-    src: "org.carbonrom.setupwizard.xml",
+    src: "org.lightningfastrom.setupwizard.xml",
     filename_from_src: true,
 }
 

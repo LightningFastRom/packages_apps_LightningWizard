@@ -5,11 +5,11 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := CarbonSetupWizard
+LOCAL_PACKAGE_NAME := LightningSetupWizard
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Provision
-LOCAL_REQUIRED_MODULES := privapp_whitelist_org.carbonrom.setupwizard
+LOCAL_REQUIRED_MODULES := privapp_whitelist_org.lightningfastrom.setupwizard
 
 LOCAL_PRIVATE_PLATFORM_APIS := true
 
@@ -22,7 +22,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     setupdesign
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    libphonenumber
+    libphonenumber \
+    org.lineageos.platform.internal
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common
